@@ -1,0 +1,23 @@
+/* Custom Styles for Iksafar Travel */
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Custom transitions and scrollbar tweaks */
+#package-track {
+    display: flex;
+    will-change: transform;
+}
+
+/* Active tab styles */
+.search-tab.active-tab {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+}
+
+/* Footer link hover effects */
+footer a:hover {
+    color: #facc15;
+    transition: color 0.2s ease-in-out;
+}
